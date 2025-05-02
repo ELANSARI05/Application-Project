@@ -1,0 +1,10 @@
+Column_Name,Description
+User_Id,Unique identifier for the user
+Phone_Number,Phone number associated with the account
+Arn,Acquirer Reference Number (unique transaction ID)
+Amount,Transaction amount (in DH)
+Date_transaction,Date when the transaction occurred (YYYY-MM-DD format)
+Time,Time when the transaction occurred (HH:MM:SS format)
+Type_transaction,"Type of transaction (e.g., CASH IN EN MASSE, CASH IN, WALLET_TO_WALLET_CREDIT)"
+Signature,"Transaction signature (C = Credit, D = Debit)"
+First_Name,First name of the account holder

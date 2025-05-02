@@ -1,0 +1,17 @@
+Column_Name,Description
+User_Id,Unique identifier for the user
+Phone_Number,User's phone number for authentication and contact
+User_Type,"Type of user (CUSTOMER, MERCHANT)"
+Gender,"User's gender (male, female)"
+Created_At,Timestamp when the user account was created
+Updated_At,Timestamp when the user account was last updated
+Deleted_At,Timestamp when the user account was deleted (soft delete)
+First_Name,User's first name
+Last_Online,Timestamp when the user was last online
+Is_Online,Boolean indicating if the user is currently online
+Avatar,URL or path to the user's profile picture
+Must_Pay_Monthly_Fee,Boolean indicating if the user must pay a monthly fee
+Enable_Messages_Notification,Boolean for enabling message notifications
+Enable_Transactions_Notification,Boolean for enabling transaction notifications
+Language,"User's preferred language (en, ar-FR, fr, ar, ar-MA)"
+Wallet_Type,"Type of wallet (WALLET_200, WALLET_20000, WALLET_5000, WALLET_MERCHANT)"

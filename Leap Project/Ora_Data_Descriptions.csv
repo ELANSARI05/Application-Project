@@ -1,0 +1,67 @@
+Column_Name,Description
+User_Id,Unique identifier for the user
+Must_Pay_Monthly_Fee,Boolean indicating if the user must pay a monthly fee
+Enable_Messages_Notification,Boolean for enabling message notifications
+Enable_Transactions_Notification,Boolean for enabling transaction notifications
+num_transactions,Total number of transactions made by the user
+avg_transaction_amount,Average transaction amount (in DH)
+transaction_activity_period,Number of days between the first and last transaction
+num_debit_transactions,Number of debit transactions
+num_credit_transactions,Number of credit transactions
+adm_recharge,Count of administrative recharge transactions
+cash in,Count of cash-in transactions
+cash in carte oracash,Count of cash-in transactions via Oracash card
+cash in en masse,Count of bulk cash-in transactions
+cash out agence,Count of cash-out transactions at agencies
+frais,Count of fee-related transactions
+iam_facture_v3,Count of IAM invoice transactions (version 3)
+iam_recharge_directe,Count of IAM direct recharge transactions
+inwi_facture,Count of Inwi invoice transactions
+inwi_recharge,Count of Inwi recharge transactions
+orange_facture,Count of Orange invoice transactions
+orange_recharge,Count of Orange recharge transactions
+paiement_offus_debit,Count of offus payment debit transactions
+paiement_onus_credit,Count of onus payment credit transactions
+paiement_onus_debit,Count of onus payment debit transactions
+paiment_facture,Count of invoice payment transactions
+vignette,Count of vignette-related transactions
+virement emis,Count of outgoing transfer transactions
+wallet_to_wallet_credit,Count of wallet-to-wallet credit transactions
+wallet_to_wallet_debit,Count of wallet-to-wallet debit transactions
+wallet_to_wallet_offus_credt,Count of wallet-to-wallet offus credit transactions
+wallet_to_wallet_offus_debit,Count of wallet-to-wallet offus debit transactions
+churn_target,"Target variable indicating churn (1 = churned, 0 = not churned)"
+time_since_creation,Number of days since the account creation
+activity_duration,Number of days the user has been active
+time_since_last_update,Number of days since the last account update
+min_time_between_txn_hours,Minimum time between transactions (in hours)
+max_time_between_txn_hours,Maximum time between transactions (in hours)
+avg_time_between_txn_hours,Average time between transactions (in hours)
+txn_per_active_day,Transactions per active day
+total_debit_amount,Total debit amount
+total_credit_amount,Total credit amount
+net_money_flow,Net money flow
+txn_amount_x_freq,Transaction amount multiplied by frequency
+activity_x_total_amount,Activity multiplied by total amount
+is_profitable,Indicator if the account is profitable
+account_duration,Account duration
+account_lifespan_x_net_flow,Account lifespan multiplied by net flow
+post_txn_dormancy,Post-transaction dormancy
+pre_txn_engagement,Pre-transaction engagement
+days_online_until_now,Number of days the user has been online until now
+days_since_seen,Number of days since the user was last seen
+Gender_FEMALE,"Indicator for female gender (1 = female, 0 = not female)"
+Gender_MALE,"Indicator for male gender (1 = male, 0 = not male)"
+Gender_Unknown,"Indicator for unknown gender (1 = unknown, 0 = not unknown)"
+Language_ar,Indicator for Arabic language preference
+Language_ar-FR,Indicator for Arabic-French language preference
+Language_ar-MA,Indicator for Arabic-Moroccan language preference
+Language_en,Indicator for English language preference
+Language_fr,Indicator for French language preference
+Wallet_Type_WALLET_200,Indicator for wallet type WALLET_200
+Wallet_Type_WALLET_20000,Indicator for wallet type WALLET_20000
+Wallet_Type_WALLET_5000,Indicator for wallet type WALLET_5000
+Wallet_Type_WALLET_MERCHANT,Indicator for wallet type WALLET_MERCHANT
+Avatar_Class_common,Indicator for common avatar class
+Avatar_Class_unknown,Indicator for unknown avatar class
+Avatar_Class_users,Indicator for users avatar class
